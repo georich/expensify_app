@@ -1,1 +1,1 @@
-# expensify_app
+# Expensify App
