@@ -1,7 +1,7 @@
 const path = require('path');
 
 module.exports = {
-  entry: './example_code/higher_order_component.js',
+  entry: './src/app.js',
   output: {
     path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
