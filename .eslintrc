@@ -1,11 +1,18 @@
 {
-  "extends": "airbnb",
+  "plugins": [
+    "jest"
+  ],
+  "extends": [
+    "airbnb",
+    "plugin:jest/recommended"
+  ],
   "parserOptions": {
     "ecmaVersion": 6
   },
   "env": {
     "browser": true,
-    "es6": true
+    "es6": true,
+    "jest/globals": true
   },
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"]}]
