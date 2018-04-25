@@ -8,21 +8,21 @@ const addExpense = ({ description = '', note = '', amount = 0, createdAt = 0 } =
     description,
     note,
     amount,
-    createdAt
-  }
+    createdAt,
+  },
 });
 
 // REMOVE_EXPENSE
 const removeExpense = ({ id }) => ({
   type: 'REMOVE_EXPENSE',
-  id
+  id,
 });
 
 // EDIT_EXPENSE
 const editExpense = (id, updates) => ({
   type: 'EDIT_EXPENSE',
   id,
-  updates
+  updates,
 });
 
 export { addExpense, removeExpense, editExpense };
